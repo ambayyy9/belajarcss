@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 #header {
     width: 800px;
@@ -24,6 +25,7 @@
 }
 #navbar ul {
     list-style: none;
+    font-size: 18px;
 }
 #navbar ul li {
     display: inline-block;
@@ -31,4 +33,33 @@
     padding-bottom: 10px;
     padding-right: 20px;
     padding-left: 20px;
+}
+#content {
+    width: 800px;
+    margin: 0 auto;
+    background: rgb(168, 138, 143);
+}
+#artikel {
+    background: rgba(121, 58, 68, 0.603);
+    padding: 30px;
+    font-size: 18px;
+    width: 500px;
+    float: left;
+}
+#sidebar {
+    background: rgb(211, 155, 164);
+    width: 300px;
+    padding: 30px;
+    float: right;
+}
+.clear{
+    clear: both;
+}
+#footer{
+    width: 800px;
+    background-color: rgb(211, 155, 164);
+    margin: 0 auto;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
